@@ -111,12 +111,16 @@ The skincare recommender system has the potential to enhance the user experience
   ## Reccommendations
 
 Based on our experience in developing the skincare recommender system, we would like to provide the following recommendations:
-1. Our stakeholders should use this interface for their clients as it is accurate in providing personalized product recommendations to their users based on their features and likings
 
-2. The business should provide more products such as "  " since they were rated most helpful.
+1. The business should provide more products such as face serums since they were rated as the most helpful.
    
-3. They should advertise the products meant for dark skin tones and encourage them to  rate the products so that the system can have better recommendations for them.
-4. 
+2. They should collect more reviews from all races to improve the accuracy of the recommendation system.
+
+3. They should Collaborate with skincare experts, dermatologists, or industry professionals who can provide valuable 
+  insights and expertise on the quality and safety of skincare products.
+
+5. Alongside the product recommendations, the business can provide educational resources such as skincare guides, tutorials, and tips. This can help users make informed decisions about their skincare routines, understand the benefits of different ingredients, and address specific skin concerns
+ 
 
 ## Next-Steps
  
