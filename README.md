@@ -144,7 +144,7 @@ By pursuing these next steps, the skincare recommender system can evolve into a 
 
 
   ## Challenges
-   Lack of data for dark skin tones: One specific challenge we encountered was the limited availability of data for individuals with dark skin tones. Skincare recommendations need to consider different skin tones and address specific concerns related to dark skin. Collecting more diverse data and ensuring the representation of all skin tones would be beneficial for providing accurate recommendations to a wider range of users.
+   We had fewer reviews  for products meant for dark skin tones: One specific challenge we encountered was the limited availability of review data for products. Collecting more diverse data and ensuring the representation of all skin tones would be beneficial for providing accurate recommendations to a wider range of users.
 
 
   ## Collaborators 
