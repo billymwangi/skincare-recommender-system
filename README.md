@@ -149,10 +149,15 @@ By pursuing these next steps, the skincare recommender system can evolve into a 
 
   ## Collaborators 
 -[Cynthiah Mulwo](https://github.com/Cynthiah-Mulwo)
+
 -[Brian Nderu](https://github.com/BrianNderu)
+
 -[Paul Musau](https://github.com/PaulMawa)
+
 -[Priscilla Kamiri](https://guthub.com/waihiga9)
+
 -[Kellen Kinya](https://github.com/kellenkinya)
+
 -[Billy Mwangi](https://github.com/billymwangi)
     
 
