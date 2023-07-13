@@ -98,9 +98,9 @@ By considering user preferences and utilizing the trained models, the system pro
 
 In this skincare recommender system project, we developed several models to provide personalized skincare recommendations to users. We utilized memory-based collaborative filtering models, such as the Nearest Neighbors and KNNBasic models, as well as user-based collaborative filtering models, such as the SVD and SVDpp models.
 
-Through evaluation, we found that all models performed well, with high precision, recall, and accuracy scores. The Tuned SVDpp model, after tuning, achieved the best results, demonstrating its ability to capture underlying relationships and provide accurate recommendations.
+The Tuned SVDpp model, after tuning, achieved the best results with high precision, recall, and accuracy scores demonstrating its ability to provide the most accurate recommendations.
 
-The deployment of the recommender system using Streamlit allows users to easily input their preferences and receive personalized skincare recommendations based on their budget, skin tone, skin type, and desired product type.
+We were able to generate personalized skincare recommendations based on their budget, skin tone, and skin type.
 
 Overall, this project successfully demonstrates the effectiveness of collaborative filtering techniques in generating tailored skincare recommendations. By leveraging user preferences and product information, we enable users to discover skincare products that align with their needs and preferences.
 
@@ -111,35 +111,27 @@ The skincare recommender system has the potential to enhance the user experience
   ## Reccommendations
 
 Based on our experience in developing the skincare recommender system, we would like to provide the following recommendations:
+1. Our stakeholders should use this interface for their clients as it is accurate in providing personalized product recommendations to their users based on their features and likings
 
-1. Expand and refine the dataset: Continuously updating and expanding the dataset with new skincare products, user reviews, and preferences can further enhance the accuracy and relevance of the recommendations. Additionally, considering additional factors such as product ingredients, user demographics, and specific skin concerns can provide more tailored recommendations.
-
-2. Incorporate hybrid models: Hybrid models that combine different recommendation techniques, such as collaborative filtering and content-based filtering, can potentially improve the recommendations by leveraging the strengths of each approach. By considering both user preferences and product attributes, hybrid models can provide more diverse and accurate recommendations.
-
-3. Implement real-time user feedback: Incorporating a feedback loop where users can rate and provide feedback on the recommended products can help improve the system's performance over time. This feedback can be used to update the models, refine recommendations, and better understand user preferences.
-
-4. Consider domain-specific knowledge: Skincare is a domain that requires domain-specific knowledge, such as understanding the ingredients, formulation, and specific skin concerns. Integrating such knowledge into the recommender system can enhance the accuracy and relevance of the recommendations, providing users with more informed choices.
-
-5. Collaborate with skincare experts: Collaborating with skincare experts, dermatologists, or industry professionals can provide valuable insights and expertise. Their domain knowledge and expertise can be leveraged to validate the recommendations, provide guidance on skincare routines, and ensure the accuracy and effectiveness of the system.
-
-By implementing these recommendations, the skincare recommender system can continue to evolve and provide users with even more accurate, personalized, and effective skincare recommendations.
+2. The business should provide more products such as "  " since they were rated most helpful.
+   
+3. They should advertise the products meant for dark skin tones and encourage them to  rate the products so that the system can have better recommendations for them.
+4. 
 
 ## Next-Steps
  
 
 While the skincare recommender system project has achieved promising results, there are several potential next steps to consider for further improvements and enhancements:
 
-1. Incorporate natural language processing (NLP): Implementing NLP techniques to analyze user reviews and product descriptions can provide deeper insights into user preferences and product attributes. By extracting key features, sentiments, and opinions from textual data, the system can generate more accurate recommendations that align with users' specific needs and preferences.
+1. Incorporate natural language processing (NLP).
+   
+2. Explore deep learning models.
 
-2. Explore deep learning models: Investigate the use of deep learning models, such as convolutional neural networks (CNNs) or recurrent neural networks (RNNs), to capture complex patterns and relationships in skincare data. Deep learning models can potentially provide more nuanced and sophisticated recommendations by considering the intricate interactions between various skincare factors.
+3. Integrate external data sources: Explore the integration of external data sources, such as social media platforms, beauty blogs, or skincare forums, to gather additional user-generated content and insights. 
 
-3. Integrate external data sources: Explore the integration of external data sources, such as social media platforms, beauty blogs, or skincare forums, to gather additional user-generated content and insights. By incorporating a broader range of user experiences and opinions, the system can offer more diverse and up-to-date recommendations.
+4. Collaborate with skincare brands and retailers.
 
-4. Implement a user feedback loop: Develop a mechanism for collecting user feedback and ratings on the recommended products. This feedback loop will allow users to provide explicit feedback on the recommendations they receive, enabling the system to continuously learn and improve its performance.
-
-5. Collaborate with skincare brands and retailers: Establish partnerships with skincare brands and retailers to access real-time product data, promotional offers, and discounts. Collaborating with industry stakeholders can enhance the accuracy and relevance of the recommendations and provide users with exclusive benefits and personalized offers.
-
-6. Conduct A/B testing and user studies: Perform rigorous A/B testing to evaluate the performance of different recommendation algorithms or strategies. Additionally, conduct user studies and collect qualitative feedback to understand user satisfaction, usability, and overall experience with the skincare recommender system.
+5. Conduct A/B testing and user studies: Perform rigorous A/B testing to evaluate the performance of different recommendation algorithms or strategies.
 
 By pursuing these next steps, the skincare recommender system can evolve into a more advanced and sophisticated tool that provides users with highly personalized skincare recommendations and an enhanced user experience.
 
