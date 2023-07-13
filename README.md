@@ -1,4 +1,6 @@
 # skincare-recommender-system
+![image-2](https://github.com/billymwangi/skincare-recommender-system/assets/124556898/24228950-4f11-4adb-8f1e-6003ceef503a)
+
 
 ## Introduction 
 This repository contains code and resources for a skincare recommender system project. The primary objective of this project is to analyze skincare data and provide personalized recommendations to users.
