@@ -4,7 +4,6 @@
 This repository contains code and resources for a skincare recommender system project. The primary objective of this project is to analyze skincare data and provide personalized recommendations to users.
 
 ## Table of contents 
-- [Business Overview](#business-overview)
 - [Installation](##Installation)
 - [Data](##Data)
 - [Modeling](##Modeling)
@@ -13,7 +12,7 @@ This repository contains code and resources for a skincare recommender system pr
 - [Conclusion](#Conclusion)
 - [Recommendations](#Recommendations)
 - [Next Steps](#Next-Steps)
-- [Challanges](#Challanges)
+- [Challenges](#Challenges)
 - [Collaborators](##Collaborators)
 
 - ## Installation
@@ -31,15 +30,17 @@ This repository contains code and resources for a skincare recommender system pr
   3. Create a virtual environment (optional)
 
      python3 -m venv env
+     
      source env/bin/activate   # For Linux/Mac
+     
      env\Scripts\activate      # For Windows
 
-  4. Install the required dependencies:
+  5. Install the required dependencies:
      pip install -r requirements.txt
 
      Once the installation steps are complete, you are ready to proceed with using the skincare recommender system.
 
-     Note: We recommend you  to use Python 3.9 and above for this repository
+     Note: We recommend you  use Python 3.8 and above for this repository
 
   ## Data
   We scraped our data from the Sephora website using Apify and merged it with another dataset obtained from Kaggle.
@@ -94,6 +95,18 @@ The interface presents the following information for each recommended product:
 By considering user preferences and utilizing the trained models, the system provides tailored recommendations that align with the user's budget, skin tone, skin type, and desired product type.
 
   ## Conclusions
+
+In this skincare recommender system project, we developed several models to provide personalized skincare recommendations to users. We utilized memory-based collaborative filtering models, such as the Nearest Neighbors and KNNBasic models, as well as user-based collaborative filtering models, such as the SVD and SVDpp models.
+
+Through evaluation, we found that all models performed well, with high precision, recall, and accuracy scores. The Tuned SVDpp model, after tuning, achieved the best results, demonstrating its ability to capture underlying relationships and provide accurate recommendations.
+
+The deployment of the recommender system using Streamlit allows users to easily input their preferences and receive personalized skincare recommendations based on their budget, skin tone, skin type, and desired product type.
+
+Overall, this project successfully demonstrates the effectiveness of collaborative filtering techniques in generating tailored skincare recommendations. By leveraging user preferences and product information, we enable users to discover skincare products that align with their needs and preferences.
+
+The skincare recommender system has the potential to enhance the user experience, simplify product selection, and facilitate informed decision-making in the realm of skincare. We hope that this project serves as a useful tool for skincare enthusiasts and helps them find the most suitable products for their skincare routine.
+
+
 
   ## Reccommendations
 
