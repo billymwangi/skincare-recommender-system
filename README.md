@@ -54,19 +54,23 @@ This repository contains code and resources for a skincare recommender system pr
  ## Modeling
  The following models were developed:
 
-* **Model 1: KNNBasic Model**: This serves as our baseline model, utilizing a K-Nearest Neighbors algorithm to find similar skincare profiles and make recommendations based on their preferences.
+* **Model 1: Nearest Neighbors Model**: This model utilizes a K-Nearest Neighbors algorithm to find similar skincare profiles and make recommendations based on their preferences.
 
-* **Model 2: SVD Model**: The Singular Value Decomposition (SVD) . This model captures underlying relationships and generates recommendations based on these latent features.
+* **Model 2: KNNBasic Model**: This  utilizes a K-Nearest Neighbors algorithm to find similar skincare profiles and make recommendations based on their preferences.
 
-* **Model 3: SVDpp Model**: Building upon the SVD model, the SVD++ algorithm further considers implicit feedback signals, such as user interactions and implicit preferences, to enhance the recommendation process. This model incorporates additional user information such as skin color, hair color, skin type, and skin tone for more accurate and personalized skincare recommendations.
+* **Model 3: SVD Model**: The Singular Value Decomposition (SVD) model captures underlying relationships and generates recommendations based on these latent features.
+
+* **Model 4: SVDpp Model**: Building upon the SVD model, the SVD++ algorithm further considers implicit feedback signals, such as user interactions and implicit preferences, to enhance the recommendation process. This model incorporates additional user information such as skin color, hair color, skin type, and skin tone for more accurate and personalized skincare recommendations.
+
 
   ## Evaluation
 
-The performance of the models was evaluated using root mean square error (RMSE). The following are the RMSE values obtained for each model:
+The performance of the models was evaluated using root mean square error (RMSE), Mean Absolute Error(MAE), Precision, recall, and accuracy of higher than 90. The following are the RMSE values obtained for each model:
 
-- KNNBasic model: RMSE = 0.2723
-- SVD model: RMSE = 0.0352
-- SVDpp model: RMSE = 0.0259
+- KNNBasic model: RMSE = 0.2724, MAE = 0.2132, Precision = 0.999 ,Recall=1.0, Accuracy = 0.999
+- SVD model: RMSE = 0.0343, MAE =0.0158, Precision = 0.9999 ,Recall=1.0, Accuracy = 0.9998
+- SVDpp model: RMSE =  0.0290 , MAE =0.0113  , Precision = 0.9997 ,Recall=1.0, Accuracy = 0.9997
+- Tuned SVDpp model: RMSE = 0.0283, MAE = 0.0099, Precision = 0.9998 ,Recall=1.0, Accuracy = 0.9998
 
 These RMSE values provide insights into the accuracy of the models in predicting skincare preferences and their effectiveness in generating recommendations.
 
