@@ -148,8 +148,7 @@ By pursuing these next steps, the skincare recommender system can evolve into a 
 
 
   ## Collaborators 
-    
-
+-[Cynthiah-Mulwo](https://github.com/Cynthiah-Mulwo)
     
 
 
