@@ -5,15 +5,16 @@ This repository contains code and resources for a skincare recommender system pr
 
 ## Table of contents 
 - [Business Overview](#business-overview)
-- [Installation](#installation)
-- [Data](#data)
-- [Modeling](#modeling)
-- [Evaluation](#evaluation)
-- [Conclusion](#conclusion)
-- [Recommendations](#recommendations)
-- [Next Steps](#nextsteps)
-- [Challanges](#challanges)
-- [Collaborators](#collaborators)
+- [Installation](##Installation)
+- [Data](##Data)
+- [Modeling](##Modeling)
+- [Evaluation](#Evaluation)
+- [Deployment](##Model-Deployment)
+- [Conclusion](#Conclusion)
+- [Recommendations](#Recommendations)
+- [Next Steps](#Next-Steps)
+- [Challanges](#Challanges)
+- [Collaborators](##Collaborators)
 
 - ## Installation
 - To set up the skincare recommender system project, follow the steps below:
@@ -41,7 +42,7 @@ This repository contains code and resources for a skincare recommender system pr
      Note: We recommend you  to use Python 3.9 and above for this repository
 
   ## Data
-  We scraped our data from the Sephora website using Apify and merged it with another dataset obtained from Kaggle .
+  We scraped our data from the Sephora website using Apify and merged it with another dataset obtained from Kaggle.
   The dataset contains :
 
   * information about all beauty products (over 8,000) from the Sephora online store, including product and brand names, prices, ingredients, ratings, and all features.
@@ -53,11 +54,15 @@ This repository contains code and resources for a skincare recommender system pr
 
  ## Modeling
  The following models were developed:
+ 
+ **Memory-Based Collaborative Filtering**
 
 * **Model 1: Nearest Neighbors Model**: This model utilizes a Nearest Neighbors algorithm to find similar skincare profiles and make recommendations based on their preferences. The Nearest Neighbors algorithm calculates the similarity between a given user's skincare profile and other profiles in the dataset and then recommends products that have been positively rated by similar users.
 
 * **Model 2: KNNBasic Model**: This  utilizes a K-Nearest Neighbors algorithm to find similar skincare profiles and make recommendations based on their preferences.
-
+ 
+ **User-Based Collaborative Filtering**
+ 
 * **Model 3: SVD Model**: The Singular Value Decomposition (SVD) model captures underlying relationships and generates recommendations based on these latent features.
 
 * **Model 4: SVDpp Model**: Building upon the SVD model, the SVD++ algorithm further considers implicit feedback signals, such as user interactions and implicit preferences, to enhance the recommendation process. This model incorporates additional user information such as skin color, hair color, skin type, and skin tone for more accurate and personalized skincare recommendations.
@@ -75,7 +80,7 @@ The performance of the models was evaluated using root mean square error (RMSE),
 These RMSE values provide insights into the accuracy of the models in predicting skincare preferences and their effectiveness in generating recommendations.
 
    
-## Model Deployment
+## Model-Deployment
 
 Our model was deployed using Streamlit, a Python framework for building web applications. We created a user-friendly interface where users can input their budget (in dollars), skin tone, skin type, and the type of product they are looking for. The deployed system then generates personalized skincare recommendations based on these inputs.
 
@@ -92,7 +97,7 @@ By considering user preferences and utilizing the trained models, the system pro
 
   ## Reccommendations
 
-  ## Next steps
+  ## Next-Steps
 
   ## Challenges
 
