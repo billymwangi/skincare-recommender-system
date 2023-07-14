@@ -1,5 +1,6 @@
 # skincare-recommender-system
-![image-2](https://github.com/billymwangi/skincare-recommender-system/assets/124556898/24228950-4f11-4adb-8f1e-6003ceef503a)
+![skincare](https://github.com/billymwangi/skincare-recommender-system/assets/106228618/05719c91-5cea-4f81-921a-834a58ce1d6e)
+
 
 
 ## Introduction 
