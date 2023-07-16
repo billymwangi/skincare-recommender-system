@@ -111,7 +111,7 @@ The skincare recommender system has the potential to enhance the user experience
 
 
 
-  ## Reccommendations
+  ## Recommendations
 
 Based on our experience in developing the skincare recommender system, we would like to provide the following recommendations:
 
