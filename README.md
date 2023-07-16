@@ -86,7 +86,7 @@ These RMSE values provide insights into the accuracy of the models in predicting
    
 ## Model-Deployment
 
-Our model was deployed using Streamlit, a Python framework for building web applications. We created a user-friendly interface where users can input their budget (in dollars), skin tone, skin type, and the type of product they are looking for. The deployed system then generates personalized skincare recommendations based on these inputs.
+Our model was deployed using Streamlit, a Python framework for building web applications. We created a user-friendly interface where users can input their budget (in Kenyan Shillings), skin tone, skin type, and the type of product they are looking for. The deployed system then generates personalized skincare recommendations based on these inputs.
 
 The interface presents the following information for each recommended product:
 
